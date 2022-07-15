@@ -1,0 +1,5 @@
+sudo apt -y update
+sudo apt-get install firebird2.5-superclassic
+sudo systemctl start firebird2.5-superclassic.service
+sudo systemctl status firebird2.5-superclassic.service
+isql-fb
