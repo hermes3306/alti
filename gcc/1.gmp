@@ -1,0 +1,9 @@
+tar -xf gmp-5.0.5.tar.bz2
+cd gmp-5.0.5
+
+./configure --prefix=$PREFIX --enable-cxx
+make -j 2
+#optional: make check
+sudo make install
+
+cd ../..

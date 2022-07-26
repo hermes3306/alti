@@ -1,0 +1,4 @@
+mkdir root
+cd root
+setenv PREFIX `pwd`
+cd ..

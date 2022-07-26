@@ -1,0 +1,9 @@
+tar -xf mpc-1.0.1.tar.gz
+cd mpc-1.0.1
+
+./configure --prefix=$PREFIX --with-gmp=$PREFIX --with-mpfr=$PREFIX
+make -j 2
+#optional: make check
+sudo make install
+
+cd ../..

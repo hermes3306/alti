@@ -1,0 +1,14 @@
+tar -xf gcc-4.6.3.tar.bz2
+cd gcc-4.6.3
+
+#./configure --prefix=$PREFIX --program-prefix=sv- --with-local-prefix=$PREFIX --enable-languages=c,c++ --with-gmp=$PREFIX --with-mpfr=$PREFIX --with-mpc=$PREFIX --with-cloog=$PREFIX --with-ppl=$PREFIX
+./configure --prefix=$PREFIX --program-prefix=sv- --with-local-prefix=$PREFIX --enable-languages=c,c++ --with-gmp=$PREFIX --with-mpfr=$PREFIX --with-mpc=$PREFIX --with-ppl=$PREFIX
+
+make -j 2
+#optionally, if low on space: make bootstrap-lean -j 2
+
+#optional: make -k check
+#note: these tests require dejagnu, tcl and expect.
+
+sudo make install
+

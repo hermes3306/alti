@@ -1,0 +1,13 @@
+#tar -xf ppl-0.11.2.tar.bz2
+#cd ppl-0.11.2
+
+tar -xf ppl-1.0.tar.bz2
+cd ppl-1.0
+
+./configure --prefix=$PREFIX --with-gmp=$PREFIX
+make -j 2
+sudo make install
+
+export LD_LIBRARY_PATH=$PREFIX/lib
+
+cd ../..
