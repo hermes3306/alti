@@ -27,7 +27,7 @@
 # The extra CLASSPATH must have been set prior to calling this script.
 
 CONF_JAVA='java'
-CONF_CLASSPATH=''
+CONF_CLASSPATH='.:/home/pi/jdk18/lib:/home/pi/jdk18/jre/lib:/home/pi/ab71/altibase_home/lib/Altibase.jar:.:/home/pi/jdk18/lib:/home/pi/jdk18/jre/lib:/home/pi/ab71/altibase_home/lib/Altibase.jar:'
 if test -n ""; then
   # Combine given CLASSPATH and configured CLASSPATH.
   if test -n "$CLASSPATH"; then

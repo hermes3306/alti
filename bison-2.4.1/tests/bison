@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 # tests/bison.  Generated from bison.in by configure.
 # Wrapper around a non installed bison to make it work as an installed one.
 

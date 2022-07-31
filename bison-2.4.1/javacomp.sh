@@ -28,7 +28,7 @@
 # Options that can be passed are -O, -g and "-d DIRECTORY".
 
 CONF_JAVAC=''
-CONF_CLASSPATH=''
+CONF_CLASSPATH='.:/home/pi/jdk18/lib:/home/pi/jdk18/jre/lib:/home/pi/ab71/altibase_home/lib/Altibase.jar:.:/home/pi/jdk18/lib:/home/pi/jdk18/jre/lib:/home/pi/ab71/altibase_home/lib/Altibase.jar:'
 if test -n ""; then
   # Combine given CLASSPATH and configured CLASSPATH.
   if test -n "$CLASSPATH"; then

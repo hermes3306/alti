@@ -38,4 +38,4 @@ CONF_JAVAC=''
 CONF_JAVA='java'
 
 # Empty if no xsltproc was found
-XSLTPROC=''
+XSLTPROC='/usr/bin/xsltproc'

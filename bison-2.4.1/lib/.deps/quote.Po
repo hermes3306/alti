@@ -1,5 +1,5 @@
 quote.o: quote.c /usr/include/stdc-predef.h config.h quotearg.h \
- /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h quote.h
+ /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h quote.h
 
 /usr/include/stdc-predef.h:
 
@@ -7,6 +7,6 @@ config.h:
 
 quotearg.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+/usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h:
 
 quote.h:
